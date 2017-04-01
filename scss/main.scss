@@ -178,6 +178,10 @@
     @keyframes rota {
       100% {transform: rotateX(360deg);}
     }
+    @keyframes disappear {
+      100% {opacity: 0;
+            transform: scaleX(0);}
+    }
   .container {
     .candy {
        animation-name: candy-anim-1, candy-anim-2, candy-anim-4;
@@ -244,25 +248,25 @@
        animation-fill-mode: forwards;
     }
     .chocolate {
-      animation-name: grow, rota;
-      animation-duration: 2s, 1s;
-      animation-delay: 14s, 18s;
+      animation-name: grow, rota, disappear;
+      animation-duration: 2s, 1s, 2s;
+      animation-delay: 14s, 18s, 19s;
       animation-iteration-count: 1;
       animation-timing-function: linear;
       animation-fill-mode: forwards;
     }
     .cheesecake {
-      animation-name: grow, rota;
-      animation-duration: 2s, 1s;
-      animation-delay: 14s, 18s;
+      animation-name: grow, rota, disappear;
+      animation-duration: 2s, 1s, 2s;
+      animation-delay: 14s, 18s, 19s;
       animation-iteration-count: 1;
       animation-timing-function: linear;
       animation-fill-mode: forwards;
     }
     .roll {
-      animation-name: ride, rota;
-      animation-duration: 2s, 1s;
-      animation-delay: 16s, 18s;
+      animation-name: ride, rota, disappear;
+      animation-duration: 2s, 1s, 2s;
+      animation-delay: 16s, 18s, 19s;
       animation-iteration-count: 1;
       animation-timing-function: linear;
       animation-fill-mode: forwards;
