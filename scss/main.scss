@@ -95,6 +95,18 @@
     @keyframes halvah-img-anim-2 {
         100% {left: 950px;}
     }
+    @keyframes candy-img-anim-3 {
+        100% {background-position: 300px 0px;}
+    }
+    @keyframes cake-img-anim-3 {
+        100% {background-position: 0px 0px;}
+    }
+    @keyframes gummie-img-anim-3 {
+        100% {background-position: 200px 0px;}
+    }
+    @keyframes halvah-img-anim-3 {
+        100% {background-position: 100px 0px;}
+    }
 
   .container {
     .candy {
@@ -105,11 +117,10 @@
        animation-timing-function: linear;;
        animation-fill-mode: forwards;
     }
-
     .candy-img {
-       animation-name: candy-img-anim-1, candy-img-anim-2;
-       animation-duration: 1s, 1s;
-       animation-delay: 0s, 4s;
+       animation-name: candy-img-anim-1, candy-img-anim-2, candy-img-anim-3;
+       animation-duration: 1s, 1s, 1ms;
+       animation-delay: 0s, 4s, 8s;
        animation-iteration-count: 1;
        animation-timing-function: linear;
        animation-fill-mode: forwards;
@@ -122,11 +133,10 @@
        animation-timing-function: linear;
        animation-fill-mode: forwards;
    }
-
    .cake-img {
-       animation-name: cake-img-anim-1, cake-img-anim-2;
-       animation-duration: 1s, 1s;
-       animation-delay: 1s, 5s;
+       animation-name: cake-img-anim-1, cake-img-anim-2, cake-img-anim-3;
+       animation-duration: 1s, 1s, 1ms;
+       animation-delay: 1s, 5s, 9s;
        animation-iteration-count: 1;
        animation-timing-function: linear;
        animation-fill-mode: forwards;
@@ -139,11 +149,10 @@
        animation-timing-function: linear;
        animation-fill-mode: forwards;
     }
-
     .gummie-img {
-       animation-name: gummie-img-anim-1, gummie-img-anim-2;
-       animation-duration: 1s, 1s;
-       animation-delay: 2s, 6s;
+       animation-name: gummie-img-anim-1, gummie-img-anim-2, gummie-img-anim-3;
+       animation-duration: 1s, 1s, 1ms;
+       animation-delay: 2s, 6s, 10s;
        animation-iteration-count: 1;
        animation-timing-function: linear;
        animation-fill-mode: forwards;
@@ -156,11 +165,10 @@
        animation-timing-function:linear;
        animation-fill-mode: forwards;
     }
-
     .halvah-img {
-       animation-name: halvah-img-anim-1, halvah-img-anim-2;
-       animation-duration: 1s, 1s;
-       animation-delay: 3s, 7s;
+       animation-name: halvah-img-anim-1, halvah-img-anim-2, halvah-img-anim-3;
+       animation-duration: 1s, 1s, 1ms;
+       animation-delay: 3s, 7s, 11s;
        animation-iteration-count: 1;
        animation-timing-function: linear;
        animation-fill-mode: forwards;
