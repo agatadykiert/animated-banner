@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+ .container {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    .candy,
+    .cake,
+    .gummie,
+    .halvah,
+    .candy-img,
+    .cake-img,
+    .gummie-img,
+    .halvah-img {
+      position: absolute;
+      top: -200px;
+     }
+    .candy,
+    .cake,
+    .gummie,
+    .halvah {
+      left: 200px;
+     }
+    .candy-img,
+    .cake-img,
+    .gummie-img,
+    .halvah-img {
+       width: 100px;
+       height: 100px;
+       background-image: url(../images/sprite.png);
+       left: 700px;
+    }
+    .candy-img {
+       background-position: -100px 100px;
+    }
+    .cake-img {
+       background-position: 0 100px;
+    }
+    .gummie-img {
+       background-position: 200px 100px;
+    }
+    .halvah-img {
+       background-position: 100px 100px;
+    }
+}
+    @keyframes candy-anim {
+       0% {top: -200px;}
+       100% {top: 50px;}
+    }
+    @keyframes candy-img-anim {
+        0% {top: -200px;}
+        100% {top: 20px;}
+    }
+    @keyframes cake-anim {
+        0% {top: -200px;}
+        100% {top: 170px;}
+    }
+    @keyframes cake-img-anim {
+        0% {top: -200px;}
+        100% {top: 140px;}
+    }
+    @keyframes gummie-anim {
+        0% {top: -200px;}
+        100% {top: 290px;}
+    }
+    @keyframes gummie-img-anim {
+        0% {top: -200px;}
+        100% {top: 260px;}
+    }
+    @keyframes halvah-anim {
+        0% {top: -200px;}
+        100% {top: 410px;}
+    }
+    @keyframes halvah-img-anim {
+        0% {top: -200px;}
+        100% {top: 380px;}
+    }
+  .container {
+    .candy {
+       animation-name: candy-anim;
+       animation-duration: 1s;
+       animation-iteration-count: 1;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+
+    .candy-img {
+       animation-name: candy-img-anim;
+       animation-duration: 1s;
+       animation-iteration-count: 1;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+   }
+   .cake {
+       animation-name: cake-anim;
+       animation-duration: 1s;
+       animation-delay: 1s;
+       animation-iteration-count: 1;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+   }
+
+   .cake-img {
+       animation-name: cake-img-anim;
+       animation-duration: 1s;
+       animation-delay: 1s;
+       animation-iteration-count: 1;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+    .gummie {
+       animation-name: gummie-anim;
+       animation-duration: 1s;
+       animation-delay: 2s;
+       animation-iteration-count: 1;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+
+    .gummie-img {
+       animation-name: gummie-img-anim;
+       animation-duration: 1s;
+       animation-delay: 2s;
+       animation-iteration-count: 1;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+    .halvah {
+       animation-name: halvah-anim;
+       animation-duration: 1s;
+       animation-delay: 3s;
+       animation-iteration-count: 1;
+       animation-timing-function:linear;
+       animation-fill-mode: forwards;
+    }
+
+    .halvah-img {
+       animation-name: halvah-img-anim;
+       animation-duration: 1s;
+       animation-delay: 3s;
+       animation-iteration-count: 1;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+}
